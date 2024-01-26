@@ -1,9 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); */
+/* App.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your additional styles go here */
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  /* font-family: 'Abel', sans-serif; */
   background-color: #fcfcfc;
 }
 
@@ -19,9 +25,10 @@ body {
 
 .navbar {
   height: 10vh;
-  background-color: black;
+  background-color: #333333;
   position: relative;
   color: white;
+  border-bottom: 4px solid #DD4B12;
 }
 
 .logo {
