@@ -150,10 +150,6 @@ body {
   font-size: 30px;
 }
 
-.home-page {
-  height: 80vh;
-}
-
 .test {
   position: relative;
 }
@@ -195,4 +191,27 @@ body {
 
 .extension-example {
   position: relative;
+}
+
+/* Footer */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #010101;
+  color: white;
+  margin-top: auto;
+}
+
+.social-icons {
+  height: 20px;
+  width: 20px;
+}
+
+.line {
+  border-bottom: 5px solid #DD4B12;
 }
