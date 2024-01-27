@@ -27,15 +27,10 @@ body {
 
 .navbar {
   height: 10vh;
-  background-color: #333333;
+  background-color: #010101;
   position: relative;
   color: white;
   border-bottom: 4px solid #DD4B12;
-}
-
-.logo {
-  /* height: 40px;
-  width: 40px; */
 }
 
 .logo-img {
@@ -167,4 +162,20 @@ body {
 
 .title {
   font-size: 40px;
+}
+
+.kitchen-img {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  color: white;
+  padding: 20px;
+}
+
+.extension-example {
+  position: relative;
 }
