@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-/* App.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 @import "~bootstrap/dist/css/bootstrap.css";
 
 
@@ -57,6 +53,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  margin: 0px;
 }
 
 .nav-elements ul li:not(:last-child) {
@@ -131,6 +128,26 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+
+.home-title {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.orange-btn {
+  background-color: rgb(221, 75, 18);
+  color: white;
+  border: 1px solid #DD4B12;
+}
+
+.orange-btn:hover {
+  border: 1px solid #DD4B12;
+  background-color: rgba(221, 75, 18, .5);
+}
+
+.home-subtitle {
+  font-size: 30px;
 }
 
 .home-page {

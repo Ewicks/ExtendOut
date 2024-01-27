@@ -9,7 +9,9 @@ const Home = () => {
     <div className="home-page">
       <img className="home-img" src={Homeimage} alt="home-image" />
       <div className="center">
-        <h1 className="home-title font-bold underline">Testing text center</h1>
+        <h1 className="home-title">Extend Out </h1>
+        <p className="home-subtitle">asda sd asd asdasd </p>
+        <button className="btn orange-btn mt-4">Contact Us</button>
       </div>
       <div className="row">
         <div className="col my-5 text-center">
@@ -40,7 +42,7 @@ const Home = () => {
       <div className="row">
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="" />
+            <img className="kitchen-img" src={Kitchentwo} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
