@@ -3,6 +3,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import "~bootstrap/dist/css/bootstrap.css";
+
 
 /* Your additional styles go here */
 
@@ -32,13 +34,21 @@ body {
 }
 
 .logo {
+  /* height: 40px;
+  width: 40px; */
+}
+
+.logo-img {
+  width: 160px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .menu-img {
-    width: 60px;
-    height: 50px;
-    background-color: black;
-    background-repeat: no-repeat;
+  width: 60px;
+  height: 50px;
+  background-color: black;
+  background-repeat: no-repeat;
 }
 
 .menu-icon {
@@ -153,4 +163,8 @@ body {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+
+.title {
+  font-size: 40px;
 }

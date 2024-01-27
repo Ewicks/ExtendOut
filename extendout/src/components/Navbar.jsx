@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Hamburger from '../assets/images/menu.png';
+import Logo from '../assets/images/logo.png';
 import '../../src/App.css';
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <h1>Extend Out</h1>
+          <img className='logo-img' src={Logo} alt="" />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
             {/* Use the <img> tag for images */}

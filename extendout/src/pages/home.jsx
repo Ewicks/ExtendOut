@@ -5,6 +5,7 @@ import Kitchentwo from '../assets/images/kitchentwo.png';
 import '../../src/App.css';
 
 
+
 const Home = () => {
   return (
     <div className='home-page'>
@@ -12,20 +13,30 @@ const Home = () => {
       <div className="center">
         <h1 className='home-title font-bold underline'>Testing text center</h1>
       </div>
-      <div className="container">
-      <div className="columns-2">
-          <h1 class='w-full flex justify-center align-middle'>hi</h1>
-          <img src={Kitchen} class='kitchen-img' alt="" />
-       
+      <div className="row">
+        <div className="col my-5 text-center">
+          <h1 className='fw-bold title'>title</h1>
         </div>
-        <div className="columns-2">
-          <img src={Kitchentwo} class='kitchen-img' alt="" />
-          <h1 class='w-full flex justify-center align-middle'>hi</h1>
-       
-        </div>
-
       </div>
-       
+      <div className="row">
+        <div className="col p-0 d-flex justify-content-center align-items-center">
+          <h1>askdasdkak skd</h1>
+          <p>asdasdasd asd asd as</p>
+        </div>
+        <div className="col p-0">
+          <img className='kitchen-img' src={Kitchen} alt="" />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col p-0">
+          <img className='kitchen-img' src={Kitchentwo} alt="" />
+        </div>
+        <div className="col p-0 d-flex justify-content-center align-items-center">
+          <h1>askdasdkak skd</h1>
+          <p>asdasdasd asd asd as</p>
+        </div>
+     
+      </div>
     </div>
 
   );
