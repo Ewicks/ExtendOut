@@ -27,7 +27,9 @@ const Footer = () => {
                     </div>
                     <div className="email">
                         <MdEmail />
-                        <a href="mailto:ethanowicks9@gmail.co.uk" className='email-address'>extendout@extendout.com</a>
+                        {/* <a href="mailto:ethanowicks9@gmail.co.uk" className='email-address'>extendout@extendout.com</a> */}
+                        <a href="#">Link</a>
+
                     </div>
                     <p className='my-4'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
                 </div>

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-page">
-      <img className="home-img" src={Homeimage} alt="home-image" />
+      <img className="home-img" src={Homeimage} alt="" />
       <div className="center">
       
         <Link to='/contact' className="btn orange-btn mt-4">Contact Us</Link>
