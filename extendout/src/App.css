@@ -30,7 +30,7 @@ body {
 }
 
 .logo-img {
-  width: 300px;
+  width: 200px;
   height: 100%;
   object-fit: cover;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .nav-elements ul li:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 .nav-elements ul a {
@@ -89,7 +89,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -98,8 +98,8 @@ body {
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 60px;
-    background-color: #fef7e5;
+    top: 78px;
+    background-color: #DD4B12;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -273,8 +273,6 @@ body {
   border-radius: 0px;
 }
 
-
-
 .contact-build-btn {
   border: 3px solid orange;
   border-radius: 0px;
@@ -289,4 +287,76 @@ body {
 .contact-build-btn:hover {
   background-color: orange;
   color: white;
+}
+.gallary-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallary-title {
+  margin-left: 30px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px; /* Adjust margin as needed */
+}
+
+.gallery-item {
+  flex: 0 0 calc(33.33% - 20px); /* Three items in a row on larger screens */
+  margin: 10px; /* Adjust margin as needed */
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallary-name-tag {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.gallary-padding {
+  padding: 0px 40px;
+}
+
+@media (max-width: 1199px) {
+  /* For screens between 768px and 1199px (medium devices) */
+  .gallery-item {
+    flex: 0 0 calc(50% - 20px); /* Two items in a row for medium devices */
+  }
+}
+
+@media (max-width: 767px) {
+  /* For screens smaller than 768px (e.g., mobile devices) */
+  .gallery-item {
+    flex: 0 0 calc(100% - 20px); /* One item in a row on smaller screens */
+  }
+}
+
+
+@media (max-width: 1052px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+  .logo-img {
+    width: 150px;
+  }
+}
+@media (max-width: 830px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 20px;
+  }
+  .logo-img {
+    width: 120px;
+  }
 }

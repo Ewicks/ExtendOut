@@ -2,7 +2,7 @@ import React from "react";
 import Kitchen from "../assets/images/kitchen.png";
 
 
-function build() {
+function Build() {
   return (
     <div>
       <div className="extra-padding">
@@ -72,4 +72,4 @@ function build() {
   );
 }
 
-export default build;
+export default Build;
