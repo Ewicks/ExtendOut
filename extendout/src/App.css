@@ -360,3 +360,9 @@ body {
     width: 120px;
   }
 }
+
+.testimonial-item img {
+  width: 300px;
+  height: 300px;
+  display: block;
+}
