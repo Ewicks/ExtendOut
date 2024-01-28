@@ -272,3 +272,21 @@ body {
   border: 3px solid orange;
   border-radius: 0px;
 }
+
+
+
+.contact-build-btn {
+  border: 3px solid orange;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.contact-btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.contact-build-btn:hover {
+  background-color: orange;
+  color: white;
+}
