@@ -100,6 +100,11 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="row">
+        <div className="col d-flex justify-content-center contact-banner align-items-center">
+          <button className="btn white-btn">Contact Us</button>
+        </div>
+      </div>
     </div>
     
   );

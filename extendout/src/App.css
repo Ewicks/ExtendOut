@@ -407,3 +407,21 @@ body {
   color: white;
 
 }
+
+.contact-banner {
+  height: 90px;
+  background-color: #DD4B12;
+}
+
+.white-btn {
+  border: 4px solid white;
+  border-radius: 0px;
+  height: 50%;
+  color: white;
+}
+
+.white-btn:hover {
+  background-color: rgba(255, 255, 255, .5);
+  border: 4px solid rgb(255, 255, 255);
+  color: white;
+}
