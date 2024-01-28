@@ -9,8 +9,7 @@ const Home = () => {
     <div className="home-page">
       <img className="home-img" src={Homeimage} alt="home-image" />
       <div className="center">
-        <h1 className="home-title">Extend Out </h1>
-        <p className="home-subtitle">asda sd asd asdasd </p>
+      
         <button className="btn orange-btn mt-4">Contact Us</button>
       </div>
       <div className="row">
