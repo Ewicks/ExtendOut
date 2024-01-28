@@ -14,14 +14,15 @@ const Home = () => {
         <Link to='/contact' className="btn orange-btn mt-4">Contact Us</Link>
       </div>
       <div className="row">
-        <div className="col my-5 text-center">
+        {/* <div className="col my-5 text-center">
           <h1 className="fw-bold title">
             SPECIALISTS IN LOFT CONVERSIONS AND EXTENSIONS
           </h1>
-        </div>
+        </div> */}
       </div>
       <div className="row">
-        <div className="col d-flex justify-content-center align-items-center p-0">
+        <div className="col d-flex justify-content-center align-items-center p-0 flex-column">
+          <h1>Extensions</h1>
           <p className="p-5">
             ExtendOut is a dedicated Loft Conversion and Extension company with
             passion for good design and an eye for detail. We set the bar high
@@ -50,7 +51,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col d-flex justify-content-center align-items-center p-0">
+        <div className="col d-flex justify-content-center align-items-center p-0 flex-column">
+          <h1>Loft Conversions</h1>
           <p className="p-5">
             ExtendOut is a dedicated Loft Conversion and Extension company with
             passion for good design and an eye for detail. We set the bar high
