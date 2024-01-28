@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="" />
+            <img className="kitchen-img" src={Kitchen} alt="picture of kitchen" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -42,7 +42,7 @@ const Home = () => {
       <div className="row">
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchentwo} alt="" />
+            <img className="kitchen-img" src={Kitchentwo} alt="picture of kitchen" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
