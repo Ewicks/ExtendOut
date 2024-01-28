@@ -366,3 +366,28 @@ body {
   height: 300px;
   display: block;
 }
+
+.form-contact label {
+  margin: 5px 0px;
+}
+
+.form-contact input {
+  /* margin: 10px 0px; */
+  width: 50%;
+}
+
+.form-contact textarea {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.btn-form {
+  border: 2px solid #DD4B12;
+  border-radius: 0px;
+}
+
+.btn-form:hover {
+  background-color: #DD4B12;
+  color: white;
+
+}
