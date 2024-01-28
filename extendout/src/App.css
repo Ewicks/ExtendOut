@@ -246,6 +246,18 @@ body {
   margin-bottom: 0px;
 }
 
+.email-address {
+  margin-left: 5px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.email-address:hover {
+  text-decoration: underline;
+}
+
 .div {
   padding: 10px;
   max-width: 300px;
@@ -273,23 +285,23 @@ body {
   padding: 0px 15px;
 }
 .contact-btn {
-  border: 3px solid orange;
+  border: 3px solid #DD4B12;
   border-radius: 0px;
 }
 
 .contact-build-btn {
-  border: 3px solid orange;
+  border: 3px solid #DD4B12;
   border-radius: 0px;
   width: 100%;
 }
 
 .contact-btn:hover {
-  background-color: orange;
+  background-color: #DD4B12;
   color: white;
 }
 
 .contact-build-btn:hover {
-  background-color: orange;
+  background-color: #DD4B12;
   color: white;
 }
 .gallary-img {

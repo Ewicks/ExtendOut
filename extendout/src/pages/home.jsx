@@ -60,7 +60,48 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="row">
+        <div className="col d-flex justify-content-center align-items-center p-0 flex-column">
+          <h1>Renovation</h1>
+          <p className="p-5">
+            ExtendOut is a dedicated Loft Conversion and Extension company with
+            passion for good design and an eye for detail. We set the bar high
+            when it comes to the level of craftsmanship and service we provide.
+          </p>
+        </div>
+        <div className="col p-0">
+          <div className="extension-example">
+            <img className="kitchen-img" src={Kitchen} alt="picture of kitchen" />
+            <div className="overlay-text">
+              <p>aasd</p>
+              <p> My super text.</p>
+              <p>asd asd asd asdads.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col p-0">
+          <div className="extension-example">
+            <img className="kitchen-img" src={Kitchentwo} alt="picture of kitchen" />
+            <div className="overlay-text">
+              <p>aasd</p>
+              <p> My super text.</p>
+              <p>asd asd asd asdads.</p>
+            </div>
+          </div>
+        </div>
+        <div className="col d-flex justify-content-center align-items-center p-0 flex-column">
+          <h1>New Build</h1>
+          <p className="p-5">
+            ExtendOut is a dedicated Loft Conversion and Extension company with
+            passion for good design and an eye for detail. We set the bar high
+            when it comes to the level of craftsmanship and service we provide.
+          </p>
+        </div>
+      </div>
     </div>
+    
   );
 };
 

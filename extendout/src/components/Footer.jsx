@@ -19,21 +19,18 @@ const Footer = () => {
                     </div>
                     <div className="phone mt-3">
                         <FaPhone />
-                        <p className='phone-number'>0034340420340</p>
+                        <p className='phone-number'>0203 930 3139</p>
                     </div>
                     <div className="phone">
                         <FaPhone />
-                        <p className='phone-number'>0034340420340</p>
+                        <p className='phone-number'>0203 930 3139</p>
                     </div>
                     <div className="email">
                         <MdEmail />
-                        <p className='phone-number'>extendout@extendout.com</p>
+                        <a href="mailto:ethanowicks9@gmail.co.uk" className='email-address'>extendout@extendout.com</a>
                     </div>
                     <p className='my-4'>© 2024 ShapeHouse | FAQ Privacy Policy</p>
-
                 </div>
-                
-
             </div>
             <div className="col d-flex justify-content-center align-items-center flex-column">
                 <div className="social-icons">
