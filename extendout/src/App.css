@@ -136,14 +136,16 @@ body {
 }
 
 .orange-btn {
-  background-color: rgb(221, 75, 18);
   color: white;
-  border: 1px solid #DD4B12;
+  border: 5px solid #DD4B12;
+  border-radius: 0px;
+  font-size: 30px;
+
 }
 
 .orange-btn:hover {
-  border: 1px solid #DD4B12;
-  background-color: rgba(221, 75, 18, .5);
+  border: 5px solid #DD4B12;
+  background-color: rgb(221, 75, 18);
 }
 
 .home-subtitle {
@@ -160,8 +162,8 @@ body {
 
 .center {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 85%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;

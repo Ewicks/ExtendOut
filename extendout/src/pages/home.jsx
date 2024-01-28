@@ -3,6 +3,7 @@ import Homeimage from "../assets/images/home-img.png";
 import Kitchen from "../assets/images/kitchen.png";
 import Kitchentwo from "../assets/images/kitchentwo.png";
 import "../../src/App.css";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <img className="home-img" src={Homeimage} alt="home-image" />
       <div className="center">
       
-        <button className="btn orange-btn mt-4">Contact Us</button>
+        <Link to='/contact' className="btn orange-btn mt-4">Contact Us</Link>
       </div>
       <div className="row">
         <div className="col my-5 text-center">
