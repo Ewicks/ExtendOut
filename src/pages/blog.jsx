@@ -26,7 +26,7 @@ function Blog() {
   }, [])
 
   return (
-    <div>
+    <div className='gallary-padding'>
       <div className="row">
         <div className="col">
           <h1>blog posts</h1>
@@ -34,11 +34,7 @@ function Blog() {
       </div>
       <div className="row">
         <div className="col">
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <Posts posts={posts} loading={loading} />
-            </div>
-          </div>
+          <Posts posts={posts} loading={loading} />
         </div>
       </div>
     </div>
