@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-page">
-      <img className="home-img" src={Homeimage} alt="describes a kitchen" />
+      <img className="home-img" src={Homeimage} alt="" />
       <div className="center">
       
         <Link to='/contact' className="btn orange-btn mt-4">Contact Us</Link>
@@ -31,7 +31,7 @@ const Home = () => {
         </div>
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="kitchen" />
+            <img className="kitchen-img" src={Kitchen} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -43,7 +43,7 @@ const Home = () => {
       <div className="row">
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchentwo} alt="kitchen" />
+            <img className="kitchen-img" src={Kitchentwo} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -71,7 +71,7 @@ const Home = () => {
         </div>
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchen} alt="kitchen" />
+            <img className="kitchen-img" src={Kitchen} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
@@ -83,7 +83,7 @@ const Home = () => {
       <div className="row">
         <div className="col p-0">
           <div className="extension-example">
-            <img className="kitchen-img" src={Kitchentwo} alt="kitchen" />
+            <img className="kitchen-img" src={Kitchentwo} alt="" />
             <div className="overlay-text">
               <p>aasd</p>
               <p> My super text.</p>
