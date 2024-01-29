@@ -6,15 +6,18 @@ function Posts({ posts, loading }) {
   }
 
   return (
-    <div className='d-flex gap-5 flex-wrap justify-content-center align-items-center'>
+    <div className='row row-cols-1 row-cols-md-3'>
       {posts.map((post, index) => (
-          <div className='blog-card' key={index}>
-              <img className='blog-img' src={post.image} alt="" />
-
-              <h3>{post.title}</h3>
-              <p>{post.text}</p>
-              <a href="#" className='blog-btn'>Contact Us</a>
+        <div className='col mb-4' key={index}>
+          <div className='card'>
+            <img className='card-img-top' src={post.image} alt={post.title} />
+            <div className='card-body'>
+              <h3 className='card-title'>{post.title}</h3>
+              <p className='card-text'>{post.text}</p>
+              {/* <a href="#" className='blog-btn'>Contact Us</a> */}
+            </div>
           </div>
+        </div>
       ))}
     </div>
   );
